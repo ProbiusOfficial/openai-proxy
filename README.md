@@ -31,7 +31,7 @@
 
 等待一段时间 来到**函数管理**选中**函数代码**，将[app.js](https://github.com/ProbiusOfficial/openai-proxy/blob/main/app.js) 和 [package.json](https://github.com/ProbiusOfficial/openai-proxy/blob/main/package.json) 替换为下面内容：
 
-```C++
+```JavaScript
 const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
@@ -54,6 +54,10 @@ app.use(openaiApiProxy);
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
+
+```
+
+```json
 {
   "name": "origin",
   "version": "0.0.0",
@@ -72,6 +76,8 @@ app.listen(port, () => {
   }
 }
 ```
+
+
 
 ![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-24-d11-h28m1679628483083.png)
 
