@@ -117,6 +117,8 @@ app.listen(port, () => {
 
 ### 其他
 
+感谢文档：https://cloud.tencent.com/document/product/583/37920
+
 本项目代码所用代码由GPT强力驱动生成（x
 
 ![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-24-d11-h31m1679628687662.png)
