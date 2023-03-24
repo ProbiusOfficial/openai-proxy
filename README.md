@@ -1,6 +1,8 @@
 # openai-proxy
 使用腾讯云函数将Openai的API偷渡到国内x
 
+跟随下面的文档进行搭建 / 或者直接上传封装好的代码包即可x
+
 ### 如何部署
 
 在腾讯云中打开云函数列表：https://console.cloud.tencent.com/scf/list
